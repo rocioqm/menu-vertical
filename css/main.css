@@ -1,0 +1,49 @@
+body {
+  font-family: sans-serif;
+}
+
+nav {
+  width: 200px;
+}
+
+ul {
+  /*para ver como esta la etiqueta*/
+  /*outline: 1px solid yellow;*/
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 30px;
+}
+
+li {
+  background: #f5f5f0;
+}
+
+a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+}
+
+ul li:first-child {
+  background:#f9a91a; 
+}
+
+ul li:first-child a:hover {
+  color: black;
+}
+
+ul li:first-child a {
+  color: white;
+}
+
+
+a:hover {
+  background: #e0e0d1;
+}
+
+a:active {
+  background: #333;
+  color: white;
+}
